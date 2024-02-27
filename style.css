@@ -16,6 +16,12 @@ h1 {
 
 h2, h3 {
     font-family: serif;
+    
+}
+
+h3{
+    background-color: rgb(115, 96, 96);
+    color: white;
 }
 
 .CV {
@@ -38,3 +44,8 @@ img {
     padding: 20px 20px;
 }
 
+.site img {
+    max-width: 8%;
+    padding-left: 3%;
+    padding-top: 20px;
+}
