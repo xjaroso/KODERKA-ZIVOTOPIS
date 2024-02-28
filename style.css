@@ -1,10 +1,14 @@
 body {
     background-image: url(obrazky/background_webArtboard-1.png);
-    background-repeat:repeat;
+    background-repeat: repeat;
+    background-size: 100%;
     line-height: 1.5;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     margin: 0;
+}
+section {
+    overflow: auto;
 }
 
 h1 {
@@ -29,22 +33,33 @@ h3{
     margin: 5%;
 }
 
-img {
-    max-width: 40%;
-}
-
 .levy_sloupec {
     width: 30%;
     text-align: center;
     line-height: 2;
+    padding-right: 60px;
+    vertical-align: top;
 }
 
-.pravy_sloupec {
-    padding: 20px 20px;
+.levy_sloupec img {
+    max-width: 45%;
+}
+
+.pravy_sloupec{
+    vertical-align: top;
 }
 
 .site img {
     max-width: 8%;
     padding-left: 3%;
     padding-top: 20px;
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: rgba(79, 27, 27, 0.475);
+    color: white;
 }
